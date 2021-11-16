@@ -1,0 +1,19 @@
+sudo service docker start
+
+docker build -t ass2 /media/z19941225110/CD_ROM_POS/master/SoftwareEvolution/Assignment-2-2020-master
+
+docker run -it --rm -v "/media/z19941225110/CD_ROM_POS/master/SoftwareEvolution/Assignment-2-2020-master/input:/input" -v "/media/z19941225110/CD_ROM_POS/master/SoftwareEvolution/Assignment-2-2020-master/output:/output" ass2
+
+
+jsinspect --ignore "Gruntfile.js|grunt.js|build|jquery.js|jquery.min.js|test|external|dist|jquery-migrate.js|jquery-migrate.min.js|.github|speed|.git|intro.js|outro.js" > /output/result.txt
+
+
+sudo service docker stop
+
+
+
+
+delete all container:
+docker ps -q -a | xargs docker rm
+
+jsinspect -t 50 --ignore "test" > jsinspect.out 

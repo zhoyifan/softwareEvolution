@@ -1,0 +1,1 @@
+^jquery-migrate\.js$|^outro\.js$|^Gruntfile\.js$|^intro\.js$|^jquery-migrate\.min\.js$|^jquery\.min\.js$|^.*Test\.js$|^grunt\.js$

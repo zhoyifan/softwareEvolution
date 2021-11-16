@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="50.037cm" height="60.550cm" viewBox="-1.850 -0.300 50.037 60.550"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Layer: Background -->
+<g id="Background">
+<!-- Flowchart - Box -->
+<rect x="19.148" y="-0.250" width="4.905" height="1.900" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="21.600" y="0.985"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+1.prep.py</text>
+<!-- Flowchart - Box -->
+<rect x="19.454" y="9.600" width="5.392" height="2.100" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="22.150" y="10.935"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+2.to_ignore.py</text>
+<!-- Flowchart - Box -->
+<rect x="-0.745" y="27.250" width="11.690" height="1.900" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="5.100" y="28.485"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+(-)3.jsinspect_repeat_repeatative.py</text>
+<!-- Flowchart - Box -->
+<rect x="27.131" y="26.700" width="5.437" height="2.100" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="29.850" y="28.035"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+4.count_file.py</text>
+<!-- Flowchart - Box -->
+<rect x="6.239" y="42.600" width="7.122" height="1.900" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="9.800" y="43.835"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+(-)5.calculate_sim.py</text>
+<!-- Flowchart - Box -->
+<rect x="9.937" y="52.463" width="5.225" height="1.900" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="12.550" y="53.698"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+6.heatmap.py</text>
+<!-- Flowchart - Box -->
+<rect x="27.326" y="39.950" width="3.547" height="1.900" fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  rx="0.000" />
+<text x="29.100" y="41.185"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+7.bar.py</text>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 17.880,3.950 L 25.220,3.950 C 26.233,3.950 27.055,4.398 27.055,4.950 C 27.055,5.502 26.233,5.950 25.220,5.950 L 17.880,5.950 C 16.867,5.950 16.045,5.502 16.045,4.950 C 16.045,4.398 16.867,3.950 17.880,3.950 z"/>
+<text x="21.550" y="5.230"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+sourceCode in &quot;/input/&quot;</text>
+<!-- Standard - Line -->
+<line x1="21.588" y1="1.698" x2="21.568" y2="3.415" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="21.564,3.790 21.320,3.287 21.568,3.415 21.819,3.293 "/>
+<!-- Standard - Line -->
+<line x1="21.660" y1="6.000" x2="21.983" y2="9.066" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="22.022,9.439 21.721,8.968 21.983,9.066 22.219,8.915 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 18.294,20.400 L 26.706,20.400 C 27.868,20.400 28.809,20.848 28.809,21.400 C 28.809,21.952 27.868,22.400 26.706,22.400 L 18.294,22.400 C 17.132,22.400 16.191,21.952 16.191,21.400 C 16.191,20.848 17.132,20.400 18.294,20.400 z"/>
+<text x="22.500" y="21.680"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/cloc_exclude_dir.txt</text>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 27.026,17.337 L 35.524,17.337 C 36.697,17.337 37.648,17.785 37.648,18.337 C 37.648,18.890 36.697,19.337 35.524,19.337 L 27.026,19.337 C 25.853,19.337 24.902,18.890 24.902,18.337 C 24.902,17.785 25.853,17.337 27.026,17.337 z"/>
+<text x="31.275" y="18.617"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/cloc_exclude_file.txt</text>
+<!-- Standard - Line -->
+<line x1="22.186" y1="11.750" x2="22.450" y2="19.863" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="22.462,20.238 22.196,19.747 22.450,19.863 22.696,19.730 "/>
+<!-- Standard - Line -->
+<line x1="23.456" y1="11.750" x2="29.657" y2="16.974" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="29.944,17.216 29.400,17.085 29.657,16.974 29.722,16.703 "/>
+<!-- Standard - Line -->
+<line x1="23.715" y1="22.450" x2="28.209" y2="26.333" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="28.493,26.578 27.951,26.440 28.209,26.333 28.278,26.062 "/>
+<!-- Standard - Line -->
+<line x1="31.116" y1="19.387" x2="30.089" y2="26.169" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="30.033,26.540 29.861,26.008 30.089,26.169 30.355,26.083 "/>
+<!-- UML - Note -->
+<polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.100"  points="-1.800,17.300 10.435,17.300 11.035,17.900 11.035,19.000 -1.800,19.000 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="10.435,17.300 10.435,17.900 11.035,17.900 "/>
+<text x="-1.450" y="18.545"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Run jsinspect command in docker</text>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 1.521,22.338 L 6.779,22.338 C 7.505,22.338 8.093,22.785 8.093,23.338 C 8.093,23.890 7.505,24.338 6.779,24.338 L 1.521,24.338 C 0.795,24.338 0.207,23.890 0.207,23.338 C 0.207,22.785 0.795,22.338 1.521,22.338 z"/>
+<text x="4.150" y="23.618"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/result.txt</text>
+<!-- Standard - Line -->
+<line x1="4.541" y1="19.000" x2="4.288" y2="21.802" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="4.255,22.176 4.051,21.655 4.288,21.802 4.549,21.700 "/>
+<!-- Standard - Line -->
+<line x1="4.355" y1="24.388" x2="4.811" y2="26.722" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="4.883,27.090 4.542,26.647 4.811,26.722 5.033,26.551 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 0.957,33.475 L 8.542,33.475 C 9.590,33.475 10.439,33.923 10.439,34.475 C 10.439,35.027 9.590,35.475 8.542,35.475 L 0.957,35.475 C -0.090,35.475 -0.939,35.027 -0.939,34.475 C -0.939,33.923 -0.090,33.475 0.957,33.475 z"/>
+<text x="4.750" y="34.755"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/repeatMatrix.csv</text>
+<!-- Standard - Line -->
+<line x1="5.044" y1="29.200" x2="4.836" y2="32.940" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="4.815,33.314 4.593,32.801 4.836,32.940 5.092,32.829 "/>
+<!-- Standard - Line -->
+<line x1="5.333" y1="35.523" x2="9.007" y2="42.125" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="9.189,42.453 8.728,42.137 9.007,42.125 9.165,41.894 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 24.475,32.375 L 29.325,32.375 C 29.995,32.375 30.538,32.823 30.538,33.375 C 30.538,33.927 29.995,34.375 29.325,34.375 L 24.475,34.375 C 23.805,34.375 23.263,33.927 23.263,33.375 C 23.263,32.823 23.805,32.375 24.475,32.375 z"/>
+<text x="26.900" y="33.655"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/cloc.csv</text>
+<!-- Standard - Line -->
+<line x1="25.136" y1="34.425" x2="11.899" y2="42.301" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="11.577,42.493 11.879,42.022 11.899,42.301 12.135,42.452 "/>
+<!-- Standard - Line -->
+<line x1="27.206" y1="34.422" x2="28.671" y2="39.433" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="28.776,39.793 28.396,39.383 28.671,39.433 28.876,39.243 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 9.326,47.312 L 13.474,47.312 C 14.046,47.312 14.511,47.760 14.511,48.312 C 14.511,48.865 14.046,49.312 13.474,49.312 L 9.326,49.312 C 8.754,49.312 8.289,48.865 8.289,48.312 C 8.289,47.760 8.754,47.312 9.326,47.312 z"/>
+<text x="11.400" y="48.593"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+similarity.csv</text>
+<!-- Standard - Line -->
+<line x1="10.136" y1="44.550" x2="10.892" y2="46.801" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="11.012,47.156 10.615,46.762 10.892,46.801 11.089,46.603 "/>
+<!-- Standard - Line -->
+<line x1="11.636" y1="49.361" x2="12.217" y2="51.937" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="12.300,52.303 11.946,51.871 12.217,51.937 12.434,51.761 "/>
+<!-- Standard - Arc -->
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 26.978,4.573 A 11.137,11.137 0 0,1 29.928,26.549 "/>
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="29.562,26.629 30.007,26.291 29.930,26.560 30.099,26.783 "/>
+<!-- Standard - Line -->
+<line x1="29.274" y1="28.849" x2="27.677" y2="31.894" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="27.503,32.226 27.513,31.667 27.677,31.894 27.956,31.899 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 7.967,12.960 L 18.832,12.960 C 20.332,12.960 21.548,13.408 21.548,13.960 C 21.548,14.512 20.332,14.960 18.832,14.960 L 7.967,14.960 C 6.467,14.960 5.251,14.512 5.251,13.960 C 5.251,13.408 6.467,12.960 7.967,12.960 z"/>
+<text x="13.399" y="14.240"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+print jsinspect command on screen</text>
+<!-- Standard - Arc -->
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 16.066,4.673 A 9.900,9.900 0 0,0 5.565,16.830 "/>
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="5.658,17.193 5.278,16.783 5.553,16.833 5.758,16.643 "/>
+<!-- Standard - Line -->
+<line x1="19.404" y1="11.689" x2="16.628" y2="12.739" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="16.277,12.872 16.656,12.461 16.628,12.739 16.833,12.928 "/>
+<!-- Standard - Line -->
+<line x1="11.199" y1="15.010" x2="6.837" y2="17.091" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="6.499,17.252 6.843,16.811 6.837,17.091 7.058,17.263 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 9.311,58.150 L 17.789,58.150 C 18.959,58.150 19.908,58.598 19.908,59.150 C 19.908,59.702 18.959,60.150 17.789,60.150 L 9.311,60.150 C 8.141,60.150 7.192,59.702 7.192,59.150 C 7.192,58.598 8.141,58.150 9.311,58.150 z"/>
+<text x="13.550" y="59.450"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/heatmapPlotly.html</text>
+<!-- Standard - Line -->
+<line x1="12.724" y1="54.411" x2="13.284" y2="57.621" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="13.348,57.991 13.016,57.541 13.284,57.621 13.508,57.455 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 25.248,45.600 L 32.053,45.600 C 32.992,45.600 33.754,46.048 33.754,46.600 C 33.754,47.152 32.992,47.600 32.053,47.600 L 25.248,47.600 C 24.308,47.600 23.546,47.152 23.546,46.600 C 23.546,46.048 24.308,45.600 25.248,45.600 z"/>
+<text x="28.650" y="46.900"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/barChart.html</text>
+<!-- Standard - Line -->
+<line x1="29.021" y1="41.900" x2="28.771" y2="45.065" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="28.742,45.439 28.532,44.920 28.771,45.065 29.030,44.960 "/>
+<!-- Standard - Line -->
+<line x1="26.148" y1="34.425" x2="13.549" y2="52.018" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="13.331,52.322 13.419,51.770 13.549,52.018 13.825,52.061 "/>
+<!-- Flowchart - Terminal -->
+<path stroke="#000000" fill="#FFFFFF" stroke-width="0.100"  d="M 37.109,30.950 L 45.891,30.950 C 47.104,30.950 48.087,31.398 48.087,31.950 C 48.087,32.502 47.104,32.950 45.891,32.950 L 37.109,32.950 C 35.896,32.950 34.913,32.502 34.913,31.950 C 34.913,31.398 35.896,30.950 37.109,30.950 z"/>
+<text x="41.500" y="32.250"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+output/&quot;versionNumber&quot;.txt</text>
+<!-- Standard - Line -->
+<line x1="32.618" y1="28.748" x2="38.129" y2="30.735" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="#000000" stroke-width="0.100"  points="38.482,30.862 37.926,30.927 38.129,30.735 38.096,30.457 "/>
+</g>
+</svg>

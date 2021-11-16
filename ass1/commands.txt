@@ -1,0 +1,9 @@
+sudo service docker start
+
+docker build -t ass1 /media/z19941225110/CD_ROM_POS/master/SoftwareEvolution/Assignment-1-2020-master/
+docker run --rm -v "/media/z19941225110/CD_ROM_POS/master/SoftwareEvolution/Assignment-1-2020-master/dataset-1:/input" -v "/media/z19941225110/CD_ROM_POS/master/SoftwareEvolution/Assignment-1-2020-master/output:/output" ass1 1
+
+
+
+
+sudo service docker stop

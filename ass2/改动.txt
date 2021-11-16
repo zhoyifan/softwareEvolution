@@ -1,0 +1,38 @@
+改动：
+
+为了严谨，把每一个 “.” 都更改为“\.”。
+把每一个directory变量都改动了一下，改成一样的。为了接下来放进docker里做准备。
+刚刚发现python的string可以加两个前缀，rf“”， 既可以是raw string,又可以是format string。
+
+2.to_igore.py: jsinspect 的-I -L参数，加进了command变量里。
+test\.js不需要刻意在--ignore里面指明，因为里面已经有一个“test”了，包含了test\.js的情况。
+
+
+3.extract_repeat.py:更名为"-3.extract_repeat.py",弃用。
+正式更改为3.jsinspect_repeat_repeatatitive.py。
+新代码考虑两个版本间的重复可能overlap的情况，首先按照每两个版本号，把文件路径+文件名和 重复行范围 归类。
+下一步，在每两个版本号里，按照（文件路径+文件名）把 重复行范围 放到一起。
+接着，把重复行范围进行归并（定义的merge（）函数），求和（定义的sum_up()函数）。
+最后，将重复值放入dataframe，输出矩阵。
+
+
+
+
+改动2：
+
+2.to_igore.py: intro\.js outro.js test.js, 优化这三个的记录方式。
+对于jsInspect，生成command，复制粘贴，然后在docker的命令行里面运行。
+对于cloc,输出要排除的文件夹名和文件名到output文件夹下，供4.count_file.py 进一步处理。
+
+4.count_file.py： 通过处理从2.to_igore.py生成的文件，来生成command，在代码里通过os.system()自动执行。
+
+5.calculate_sim.py: 新增代码，把最后的dataframe的NaN换成0.
+
+6.plots.py:做好heatmap了，第二个还在搞。
+
+
+改动March 5：
+3.jsinspect_repeat_repeatatitive.py 因为把directory改动了，所以cloc输出的 文件路径有一点变化。正则表达式repeatInstance也需要小改动,把最前面的”\./“移除。
+6.heatmap.py: 只是代码出来了，还需要对照下真实数据。python的可视化的包没那么靠谱，不如R语言的靠谱。虽然代码出来了，还需要检查下。
+7.bar.py:同6.heatmap.py。
+下一步计划：试着把它们全部整合到docker里面。
