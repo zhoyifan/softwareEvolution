@@ -1,3 +1,5 @@
+# Check "software_evolution_ass2.pdf" and "process.png".
+
 # Statement for our implementation on Assignment-2-2020
 
 The "git clone" command will copy all versions of jQuery in the csv file into folder "input" and all the outputs including similarity matrices, interactive heatmaps(*.html) and so on are stored in "output" folder.
